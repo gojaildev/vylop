@@ -15,9 +15,9 @@
     "@monaco-editor/react": "^4.6.0",
     "axios": "^1.7.9",
     "file-saver": "^2.0.5",
-    "framer-motion": "^13.4.3",
+    "framer-motion": "^13.5.0",
     "jszip": "^3.10.2",
-    "lucide-react": "^1.48.0",
+    "lucide-react": "^1.49.0",
     "monaco-editor": "^0.57.0",
     "monaco-vim": "^0.4.1",
     "react": "^19.3.0",
@@ -49,12 +49,12 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
     "eslint-plugin-unused-imports": "^4.4.1",
-    "globals": "^17.12.0",
+    "globals": "^17.13.0",
     "jsdom": "^30.1.1",
     "postcss": "^8.5.28",
     "tailwindcss": "^4.2.1",
-    "vite": "^8.3.1",
-    "vitest": "^5.0.1"
+    "vite": "^8.3.2",
+    "vitest": "^5.0.3"
   },
   "overrides": {
     "dompurify": "^3.4.13"
