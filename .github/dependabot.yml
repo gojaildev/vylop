@@ -4,8 +4,9 @@ updates:
   - package-ecosystem: "maven"
     directory: "/server"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "daily"
+      time: "04:00"
+      timezone: "Asia/Kolkata"
     open-pull-requests-limit: 10
     labels:
       - "dependencies"
@@ -22,8 +23,9 @@ updates:
   - package-ecosystem: "npm"
     directory: "/web"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "daily"
+      time: "04:00"
+      timezone: "Asia/Kolkata"
     versioning-strategy: increase
     open-pull-requests-limit: 10
     labels:
@@ -41,8 +43,9 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "daily"
+      time: "04:00"
+      timezone: "Asia/Kolkata"
     open-pull-requests-limit: 5
     labels:
       - "dependencies"
@@ -54,3 +57,4 @@ updates:
       actions-dependencies:
         patterns:
           - "*"
+          
